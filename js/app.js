@@ -104,8 +104,7 @@ export default class Sketch {
         const map = new  THREE.Mesh(
             new THREE.PlaneBufferGeometry(2048,1024,1,1),
             new THREE.MeshBasicMaterial({
-                color: 0x000033,
-                blending: THREE.MultiplyBlending,
+                color: 0x223355,
                 map: texture
             })
         )
